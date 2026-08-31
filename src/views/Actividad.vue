@@ -19,10 +19,10 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Desafío sobre la gestión del talento humano',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> evaluar la comprensión de los fundamentos y herramientas relacionados con la medición, evaluación, capacitación, gestión de contingencias, elaboración de informes y desarrollo organizacional, reconociendo su articulación con la toma de decisiones y la mejora continua.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
@@ -30,405 +30,708 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            '¿Cuál es una finalidad de los indicadores de gestión en los procesos de talento humano?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto:
+                'Registrar actividades sin relacionarlas con los resultados.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
+                'Obtener información para analizar el desempeño y apoyar decisiones.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
+              texto:
+                'Sustituir la evaluación de los procesos organizacionales.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
+              texto:
+                'Presentar únicamente información sobre los recursos utilizados.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            'Los indicadores convierten la medición en información útil para analizar el desempeño y apoyar la toma de decisiones.',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            '¿Qué característica permite que un indicador pueda ser interpretado de manera consistente por quienes lo utilizan?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'Que presente únicamente información cuantitativa.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Auto</em>',
+              texto: 'Que utilice siempre periodos de medición diferentes.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Text</em>',
-              esCorrecta: true,
+              texto:
+                'Que se concentre exclusivamente en registrar actividades.',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
-              esCorrecta: false,
+              texto: 'Que sea comprensible y suficientemente preciso.',
+              esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Un indicador comprensible y preciso facilita una interpretación consistente de sus resultados.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto:
+            'Una organización establece como meta capacitar a 100 personas y finalmente capacita a las 100. ¿Qué dimensión permite analizar principalmente esta situación?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Para borrar conexiones.',
-              esCorrecta: false,
+              texto: 'Eficacia.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'Eficiencia.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Para agregar nuevas capas.',
+              texto: 'Efectividad.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
-              esCorrecta: true,
+              texto: 'Contingencia.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'La eficacia permite determinar si se alcanzaron los objetivos y metas previstos.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+            'Una organización analiza cuánto tiempo, dinero y personal utiliza para desarrollar una actividad. ¿Qué dimensión está evaluando principalmente?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Eficacia.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Efectividad.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Eficiencia.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Impacto.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'La eficiencia analiza la relación entre los recursos utilizados y los resultados obtenidos.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 5,
+          texto:
+            'Después de una capacitación, una organización observa si las personas aplican lo aprendido y si esto genera cambios en su desempeño. ¿Qué dimensión está analizando?',
+          imagen: '@/assets/actividad/imagen5.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Eficacia.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Eficiencia.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Cumplimiento.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Efectividad.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'La efectividad permite analizar los resultados, cambios y efectos generados por una intervención.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 6,
+          texto:
+            '¿Cuál afirmación representa adecuadamente la relación entre eficacia, eficiencia y efectividad?',
+          imagen: '@/assets/actividad/imagen6.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Las tres dimensiones analizan únicamente el cumplimiento de metas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'La eficacia analiza el cumplimiento, la eficiencia los recursos y la efectividad los resultados.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'La eficiencia determina las metas y la eficacia analiza los recursos utilizados.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'La efectividad reemplaza las mediciones de eficacia y eficiencia.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Las tres dimensiones son diferentes, pero complementarias, y permiten obtener una visión más completa del desempeño.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 7,
+          texto:
+            '¿Cuál es la finalidad principal de la evaluación de resultados?',
+          imagen: '@/assets/actividad/imagen7.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Registrar todos los datos disponibles sin interpretarlos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Describir las actividades realizadas durante un periodo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Valorar los logros frente a los objetivos e identificar acciones de mejora.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'd) Sustituir los indicadores utilizados para medir el desempeño.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Evaluar implica interpretar los resultados frente a referentes y utilizarlos para orientar mejoras.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 8,
+          texto:
+            '¿Qué función cumple la línea base en la evaluación de resultados?',
+          imagen: '@/assets/actividad/imagen8.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Establecer una situación inicial para comparar cambios.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto:
+                'Definir automáticamente las acciones correctivas de un proceso.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Determinar únicamente los recursos necesarios para una actividad.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Sustituir la meta establecida para un periodo.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'La línea base proporciona un punto de referencia que permite observar la evolución de los resultados.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 9,
+          texto:
+            'Un indicador presenta un resultado diferente al esperado. ¿Qué debería hacerse antes de definir una acción de mejora?',
+          imagen: '@/assets/actividad/imagen9.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Considerar automáticamente que existe un incumplimiento.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Eliminar el indicador del sistema de medición.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Modificar inmediatamente la meta establecida.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Analizar las causas y los factores relacionados con la desviación.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Una desviación requiere análisis para comprender sus causas antes de decidir qué acción resulta pertinente.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 10,
+          texto:
+            '¿Qué permite identificar un diagnóstico de necesidades de capacitación?',
+          imagen: '@/assets/actividad/imagen10.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Únicamente las preferencias de formación de los participantes.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Las brechas entre competencias o desempeños esperados.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Solamente los recursos económicos disponibles para capacitar.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Las actividades que deben incluirse en cualquier programa de formación.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'El diagnóstico permite reconocer brechas y establecer prioridades de formación con base en evidencia.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 11,
+          texto:
+            '¿Qué característica debe tener un programa de capacitación para responder a las necesidades identificadas?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: '<em>Board</em>',
-              esCorrecta: true,
-            },
-            {
-              id: 'd',
-              texto: '<em>Route</em>',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
               texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
-              esCorrecta: true,
+                'Mantener los mismos contenidos para todas las organizaciones.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
+              texto: 'Concentrarse exclusivamente en impartir contenidos.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
-              esCorrecta: false,
+              texto:
+                'Relacionar necesidades, objetivos, métodos, recursos y evaluación.',
+              esCorrecta: true,
             },
             {
               id: 'd',
               texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+                'Definir las actividades después de finalizar la capacitación.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Borrar componentes.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Seleccionar y editar capas.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 7,
-          texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: '@/assets/actividad/imagen2.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: '@/assets/actividad/imagen3.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 10,
-          texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: '@/assets/actividad/imagen3.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 11,
-          texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: '@/assets/actividad/imagen3.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Una capacitación pertinente articula las necesidades identificadas con sus objetivos, recursos, métodos y mecanismos de evaluación.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+            '¿Cuál es una característica de una adecuada gestión de contingencias?',
+          imagen: '@/assets/actividad/imagen2.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Preparar respuestas con anticipación y definir responsables, prioridades y recursos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto:
+                'Esperar a que ocurra el evento para determinar cómo actuar.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Concentrarse únicamente en recuperar las actividades después del evento.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Evitar modificar los planes, aunque cambien las condiciones.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'La preparación previa permite responder de manera organizada y reducir la improvisación ante situaciones críticas.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 13,
+          texto:
+            'Una ausencia masiva e inesperada de trabajadores que afecta la disponibilidad de personal corresponde principalmente a una contingencia:',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Estratégica.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Financiera.',
               esCorrecta: false,
             },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
-          barajarRespuestas: true,
-          opciones: [
             {
-              id: 'a',
-              texto: 'Verdadero',
+              id: 'c',
+              texto: 'Operativa.',
               esCorrecta: true,
             },
             {
-              id: 'b',
-              texto: 'Falso',
+              id: 'd',
+              texto: 'Comercial.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Las contingencias operativas incluyen situaciones como ausencias imprevistas que pueden afectar la disponibilidad de personas y las funciones críticas.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+            '¿Por qué es importante evaluar una contingencia después de atenderla?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Para eliminar los registros relacionados con el evento.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Para identificar aciertos, fallas y oportunidades de actualización.',
               esCorrecta: true,
             },
+            {
+              id: 'c',
+              texto:
+                'Para reemplazar todos los indicadores de la organización.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Para evitar que la experiencia influya en futuras decisiones.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'La evaluación posterior convierte la experiencia en aprendizaje y permite fortalecer las respuestas futuras.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 15,
-          texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+          texto: '¿Cuál es una función principal de un informe de gestión?',
+          imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Registrar actividades sin analizar sus resultados.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Sustituir todos los indicadores utilizados por la organización.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Presentar información únicamente de carácter financiero.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Organizar y comunicar información facilitando decisiones y seguimiento.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Un informe adquiere valor cuando transforma los datos en información comprensible y útil para la gestión.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 16,
+          texto:
+            '¿Qué diferencia existe entre presentar datos y realizar un análisis en un informe de gestión?',
+          imagen: '@/assets/actividad/imagen6.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'El análisis interpreta los datos y los relaciona con objetivos, tendencias o desviaciones.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'El análisis consiste únicamente en aumentar la cantidad de información presentada.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Los datos deben excluirse cuando existe una interpretación de los resultados.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'El análisis reemplaza la necesidad de identificar las fuentes de información.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Analizar significa ir más allá del dato y darle significado en relación con los objetivos y resultados del proceso.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 17,
+          texto:
+            '¿Cuál es el propósito del desarrollo organizacional según el CF02?',
+          imagen: '@/assets/actividad/imagen7.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Limitar las acciones de desarrollo a la capacitación individual.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Fortalecer la capacidad de la organización y mejorar su funcionamiento.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Concentrar la gestión exclusivamente en la estructura organizacional.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Concentrar la gestión exclusivamente en la estructura organizacional.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'El desarrollo organizacional integra personas, procesos, estructura, cultura y capacidad de adaptación para fortalecer el desempeño colectivo.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 18,
+          texto: 'En un análisis FODA, ¿qué representan las oportunidades?',
+          imagen: '@/assets/actividad/imagen8.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Factores internos que limitan el desempeño.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Capacidades o recursos positivos de la organización.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Condiciones externas que pueden aprovecharse.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Factores externos que necesariamente generan una crisis.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Las oportunidades son condiciones externas que pueden aprovecharse para orientar estrategias y fortalecer la gestión.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 19,
+          texto:
+            '¿Qué permite hacer la información obtenida mediante la evaluación del desempeño y el análisis de competencias?',
+          imagen: '@/assets/actividad/imagen9.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Definir rutas y priorizar acciones según las brechas identificadas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto:
+                'Eliminar la necesidad de establecer objetivos de desarrollo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Sustituir los procesos de capacitación de la organización.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Determinar únicamente las responsabilidades actuales de cada persona.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'La identificación de fortalezas y brechas permite orientar rutas de desarrollo acordes con las necesidades de las personas y de la organización.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 20,
+          texto:
+            'Una organización analiza sus indicadores, evalúa los resultados, implementa acciones, realiza seguimiento y ajusta sus procesos. ¿Qué está desarrollando principalmente?',
+          imagen: '@/assets/actividad/imagen10.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Un proceso aislado de medición.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Un sistema exclusivo de capacitación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Un procedimiento de registro administrativo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Un ciclo integrado de gestión y mejora continua.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'La mejora continua utiliza los resultados y aprendizajes para revisar decisiones, ajustar procesos y fortalecer la gestión.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
       ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_aprobado:
+        'Ha superado la actividad y demuestra sólidos conocimientos sobre el componente formativo.',
       mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+        'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
     parrafo: {
       tema: 'Comprendiendo el diseño de presupuestos y estrategias de ahorro',
