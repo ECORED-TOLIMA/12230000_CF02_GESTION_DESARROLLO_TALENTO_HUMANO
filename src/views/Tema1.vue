@@ -464,28 +464,10 @@ export default {
         imagen: imgSlyder02,
       },
       {
-        titulo: 'Productividad',
+        titulo: 'Capacitación',
         texto:
-          'Los indicadores de productividad relacionan los recursos o capacidades disponibles con los resultados obtenidos. En talento humano, permiten analizar cómo el desempeño de las personas contribuye al cumplimiento de las metas y al aprovechamiento de los recursos organizacionales.',
-        imagen: imgSlyder03,
-      },
-      {
-        titulo: 'Clima organizacional',
-        texto:
-          'Los indicadores de clima organizacional permiten conocer la percepción de las personas sobre aspectos como comunicación, liderazgo, relaciones laborales, reconocimiento y ambiente de trabajo. Sus resultados pueden orientar acciones para fortalecer las condiciones organizacionales.',
-        imagen: imgSlyder04,
-      },
-      {
-        titulo: 'Ausentismo',
-        texto:
-          'Los indicadores de ausentismo permiten medir la frecuencia y duración de las ausencias del personal durante determinados periodos. Esta información facilita identificar tendencias y analizar sus posibles efectos sobre la continuidad de los procesos y la distribución del trabajo.',
-        imagen: imgSlyder05,
-      },
-      {
-        titulo: 'Rotación',
-        texto:
-          'Los indicadores de rotación permiten conocer la frecuencia con la que las personas ingresan y salen de la organización. Su análisis ayuda a identificar posibles problemas relacionados con condiciones laborales, clima organizacional, compensación, oportunidades de desarrollo o permanencia.',
-        imagen: imgSlyder06,
+          'Los indicadores de capacitación permiten valorar la planificación, ejecución y resultados de las acciones formativas. Pueden considerar el número de personas capacitadas, porcentaje de cumplimiento del programa, horas de formación, participación y nivel de aprendizaje alcanzado.',
+        imagen: imgSlyder08,
       },
       {
         titulo: 'Desempeño',
@@ -494,10 +476,28 @@ export default {
         imagen: imgSlyder07,
       },
       {
-        titulo: 'Capacitación',
+        titulo: 'Rotación',
         texto:
-          'Los indicadores de capacitación permiten valorar la planificación, ejecución y resultados de las acciones formativas. Pueden considerar el número de personas capacitadas, porcentaje de cumplimiento del programa, horas de formación, participación y nivel de aprendizaje alcanzado.',
-        imagen: imgSlyder08,
+          'Los indicadores de rotación permiten conocer la frecuencia con la que las personas ingresan y salen de la organización. Su análisis ayuda a identificar posibles problemas relacionados con condiciones laborales, clima organizacional, compensación, oportunidades de desarrollo o permanencia.',
+        imagen: imgSlyder06,
+      },
+      {
+        titulo: 'Ausentismo',
+        texto:
+          'Los indicadores de ausentismo permiten medir la frecuencia y duración de las ausencias del personal durante determinados periodos. Esta información facilita identificar tendencias y analizar sus posibles efectos sobre la continuidad de los procesos y la distribución del trabajo.',
+        imagen: imgSlyder05,
+      },
+      {
+        titulo: 'Clima organizacional',
+        texto:
+          'Los indicadores de clima organizacional permiten conocer la percepción de las personas sobre aspectos como comunicación, liderazgo, relaciones laborales, reconocimiento y ambiente de trabajo. Sus resultados pueden orientar acciones para fortalecer las condiciones organizacionales.',
+        imagen: imgSlyder04,
+      },
+      {
+        titulo: 'Productividad',
+        texto:
+          'Los indicadores de productividad relacionan los recursos o capacidades disponibles con los resultados obtenidos. En talento humano, permiten analizar cómo el desempeño de las personas contribuye al cumplimiento de las metas y al aprovechamiento de los recursos organizacionales.',
+        imagen: imgSlyder03,
       },
     ],
   }),

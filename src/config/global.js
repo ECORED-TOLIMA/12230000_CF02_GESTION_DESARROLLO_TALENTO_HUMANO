@@ -281,7 +281,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/12230000_CF02_CFA.pdf',
+        download: 'downloads/12230000_CF02_CFA.zip',
       },
       {
         icono: 'fas fa-download',
@@ -297,67 +297,67 @@ export default {
   },
   glosario: [
     {
-      termino: 'Capacitación:',
+      termino: 'Capacitación',
       significado:
         'proceso planificado para fortalecer conocimientos, habilidades y competencias de las personas, con el propósito de mejorar su desempeño y contribuir al cumplimiento de los objetivos organizacionales.',
     },
     {
-      termino: 'Contingencia:',
+      termino: 'Contingencia',
       significado:
         'situación imprevista que puede afectar la continuidad o el funcionamiento de los procesos, frente a la cual se establecen acciones de prevención, respuesta y recuperación.',
     },
     {
-      termino: 'Desarrollo organizacional:',
+      termino: 'Desarrollo organizacional',
       significado:
         'proceso planificado orientado a fortalecer las capacidades, los procesos y las condiciones de una organización para mejorar su funcionamiento, adaptación y desempeño.',
     },
     {
-      termino: 'Efectividad:',
+      termino: 'Efectividad',
       significado:
         'capacidad de una acción o proceso para producir los resultados y efectos esperados, considerando su contribución al desempeño y los objetivos de la organización.',
     },
     {
-      termino: 'Eficacia:',
+      termino: 'Eficacia',
       significado:
         'capacidad de alcanzar los objetivos y metas establecidos, mediante la comparación entre los resultados obtenidos y los resultados esperados.',
     },
     {
-      termino: 'Eficiencia:',
+      termino: 'Eficiencia',
       significado:
         'capacidad de obtener los resultados esperados utilizando adecuadamente los recursos disponibles, como tiempo, presupuesto, personal y herramientas.',
     },
     {
-      termino: 'Evaluación de resultados:',
+      termino: 'Evaluación de resultados',
       significado:
         'proceso mediante el cual se analizan los resultados obtenidos frente a los objetivos, metas y criterios establecidos para determinar avances y oportunidades de mejora.',
     },
     {
-      termino: 'Impacto:',
+      termino: 'Impacto',
       significado:
         'cambios o efectos generados por una acción, programa o intervención sobre los resultados o el desempeño de la organización.',
     },
     {
-      termino: 'Indicador de gestión:',
+      termino: 'Indicador de gestión',
       significado:
         'herramienta cuantitativa o cualitativa que permite medir, analizar y hacer seguimiento al desempeño de un proceso frente a objetivos, metas o resultados esperados.',
     },
     {
-      termino: 'Informe de gestión:',
+      termino: 'Informe de gestión',
       significado:
         'documento que recopila, organiza y analiza información sobre actividades, resultados, avances, dificultades y oportunidades de mejora de una gestión determinada.',
     },
     {
-      termino: 'Mejora continua:',
+      termino: 'Mejora continua',
       significado:
         'proceso sistemático y permanente de análisis, evaluación y ajuste de procesos y acciones para fortalecer el desempeño y alcanzar mejores resultados organizacionales.',
     },
     {
-      termino: 'Meta:',
+      termino: 'Meta',
       significado:
         'resultado específico que se espera alcanzar en un periodo determinado y que sirve como referencia para evaluar el cumplimiento.',
     },
     {
-      termino: 'Seguimiento:',
+      termino: 'Seguimiento',
       significado:
         'proceso de observación y análisis periódico que permite verificar el avance de las actividades, resultados e indicadores y tomar acciones cuando sea necesario.',
     },

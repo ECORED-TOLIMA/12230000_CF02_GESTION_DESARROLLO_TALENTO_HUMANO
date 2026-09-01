@@ -66,7 +66,7 @@
       .row.justify-content-center
         .col.col-lg-4.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3.d-none.d-lg-block
           figure
-            img(src='@/assets/curso/temas/t3/img-13.png', alt='')
+            img(src='@/assets/curso/temas/t4/img-05.png', alt='')
         .col.col-lg-8.col-12.order-lg-2.order-2
           .row.mb-0
             p No toda dificultad de desempeño puede solucionarse mediante capacitación, ya que algunas situaciones pueden estar relacionadas con procedimientos deficientes, herramientas inadecuadas, cargas de trabajo, problemas de comunicación o falta de recursos. Por esta razón, el diagnóstico debe permitir diferenciar las causas que pueden atenderse mediante acciones formativas de aquellas que requieren otro tipo de intervención. A partir de esta identificación, la priorización debe considerar factores como el impacto, la urgencia, el número de personas afectadas y su relación con los objetivos organizacionales, de manera que el programa responda a necesidades reales y contribuya a mejorar el desempeño.

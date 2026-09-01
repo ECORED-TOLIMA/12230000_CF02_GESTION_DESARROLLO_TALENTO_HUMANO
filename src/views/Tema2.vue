@@ -42,6 +42,7 @@
             .row.mb-0
               p En talento humano, la eficacia puede analizarse en selección, capacitación, desempeño, bienestar o desarrollo. En selección puede observarse el cumplimiento de las metas de cobertura; en capacitación, el logro de los objetivos formativos; y en desarrollo, el avance frente a las capacidades previstas.
               p La eficacia también requiere considerar el periodo y las condiciones de medición. Una meta puede ser cumplida en un contexto y no en otro debido a cambios en la demanda, disponibilidad de personal o prioridades organizacionales. Por ello, el resultado debe interpretarse dentro de su contexto.
+              p Las consideraciones para la toma de decisiones son:
               ul.lista-ul--color.mb-0
                 li 
                   <i class="fa-solid fa-circle-user"></i>

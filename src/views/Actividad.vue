@@ -261,7 +261,7 @@ export default {
             {
               id: 'd',
               texto:
-                'd) Sustituir los indicadores utilizados para medir el desempeño.',
+                'Sustituir los indicadores utilizados para medir el desempeño.',
               esCorrecta: false,
             },
           ],
