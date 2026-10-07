@@ -216,7 +216,7 @@
               figure
                 img(src='@/assets/curso/temas/t2/figura-1-1.svg', alt='Figura 1 que representa la relación entre eficacia, eficiencia y efectividad, destacando sus respectivas preguntas orientadoras, enfoques de análisis y la importancia de considerarlas conjuntamente para obtener una visión integral del desempeño.')
             .col-auto.movil(data-aos="fade-left")
-              a.anexo.mb-4(:href="obtenerLink('/downloads/Anexo_Relacion_entre_eficacia_eficiencia_y_efectividad.pdf')" target="_blank")
+              a.anexo.mb-4(:href="obtenerLink('/downloads/Anexo_01_Indicadores_de_gestion.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto

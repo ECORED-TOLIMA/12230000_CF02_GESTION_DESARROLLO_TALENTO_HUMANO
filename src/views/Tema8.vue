@@ -98,7 +98,7 @@
           .col-lg-6.col-12.mb-md-0.order-lg-1.order-2.mb-lg-0
             .row.mb-0
               p El desarrollo de carrera amplía esta perspectiva al preparar capacidades para necesidades futuras. De esta manera, la organización puede combinar respuestas frente a problemas actuales con acciones orientadas a fortalecer sus capacidades y prepararse para nuevos requerimientos.
-              p Las prácticas que se tienen para para fortalecer el proceso son:
+              p Las prácticas que se tienen para fortalecer el proceso son:
               ul.lista-ul--color.mb-0
                 li 
                   <i class="fa-solid fa-circle-user"></i>

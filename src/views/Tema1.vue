@@ -183,8 +183,8 @@
       .row.justify-content-center.mb-4
         .col.col-lg-10.col-12
           .cajon.cajon.C01.color-secundario.px-4.py-3
-            p.mb-0 Los indicadores de gestión pueden clasificarse en indicadores de eficiencia, eficacia, efectividad y calidad. Cada tipo permite analizar una dimensión específica del desempeño organizacional. 
-
+            p.mb-0 Los indicadores de gestión pueden clasificarse en indicadores de eficacia, eficiencia, efectividad, calidad, gestión o cumplimiento y riesgo. Cada tipo permite analizar una dimensión específica del desempeño organizacional. 
+            
       p.mb-4 A continuación, una breve explicación de cada uno:
 
       .row.justify-content-center.mb-4

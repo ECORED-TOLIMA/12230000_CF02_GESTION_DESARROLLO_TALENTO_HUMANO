@@ -381,7 +381,7 @@ export default {
     },
     {
       referencia:
-        'Kaplan, R. S., & Norton, D. P. (2004). Mapas estratégicos: Convirtiendo los activos intangibles en resultados tangibles. Gestión 2000.',
+        'Kaplan, R. S., y Norton, D. P. (2004). Mapas estratégicos: Convirtiendo los activos intangibles en resultados tangibles. Gestión 2000.',
     },
     {
       referencia:
